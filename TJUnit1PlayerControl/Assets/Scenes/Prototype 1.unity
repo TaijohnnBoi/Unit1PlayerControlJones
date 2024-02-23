@@ -274,6 +274,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &213362218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 118600, guid: 68840c673a0b18e41a044ed077548d55, type: 3}
+  m_PrefabInstance: {fileID: 439875882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &213362223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213362218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42a1016ce5af5645a88b94500dc346e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &439875882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -284,7 +301,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 118600, guid: 68840c673a0b18e41a044ed077548d55, type: 3}
       propertyPath: m_Name
-      value: Veh_Van_Green_Z
+      value: Vehicle
       objectReference: {fileID: 0}
     - target: {fileID: 417704, guid: 68840c673a0b18e41a044ed077548d55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -329,7 +346,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 118600, guid: 68840c673a0b18e41a044ed077548d55, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 213362223}
   m_SourcePrefab: {fileID: 100100000, guid: 68840c673a0b18e41a044ed077548d55, type: 3}
 --- !u!850595691 &481223275
 LightingSettings:
@@ -481,13 +501,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.030843573, y: -0.7064338, z: 0.030843573, w: 0.7064338}
-  m_LocalPosition: {x: 15, y: 2, z: 5}
+  m_LocalRotation: {x: 0.16280726, y: -0.0033702787, z: 0.0008827803, w: 0.9866518}
+  m_LocalPosition: {x: 0.11, y: 6.14, z: -8.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 5, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 18.74, y: -0.385, z: 0.039}
 --- !u!114 &534669906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,8 +520,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67d2766c80eb9542b45f4bd9d02639a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  offset: {x: 0, y: 5, z: -7}
 --- !u!1001 &974359749
 PrefabInstance:
   m_ObjectHideFlags: 0
